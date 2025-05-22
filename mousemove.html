@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #circle{
+            height: 20px;
+            width: 20px;background-color: darkcyan;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div id="circle"></div>
+    <script>
+        let  div_tg =document.getElementById('circle');
+
+        window.addEventListener('mousemove',test123)
+
+        function test123(e){
+            div_tg.style.marginLeft = e.clientX + "px";
+            div_tg.style.marginTop = e.clientY + "px"
+        }
+    </script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+              background-image: url('cat.jpeg'); 
+              height: 100px;
+              width: 200px;
+              background-size: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;"> add in background-image</h1>
+    
+    
+</body>
+</html>
